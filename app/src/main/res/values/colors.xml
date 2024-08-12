@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="colorPrimary">#6200EE</color> <!-- Purple -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Darker Purple -->
+    <color name="colorSecondary">#03DAC6</color> <!-- Teal -->
+    <color name="colorSecondaryVariant">#018786</color> <!-- Darker Teal -->
+    <color name="colorBackground">#FFFFFF</color> <!-- White -->
+    <color name="colorSurface">#FFFFFF</color> <!-- White -->
+    <color name="colorError">#B00020</color> <!-- Red -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White -->
+    <color name="colorOnSecondary">#000000</color> <!-- Black -->
+    <color name="colorOnBackground">#000000</color> <!-- Black -->
+    <color name="colorOnSurface">#000000</color> <!-- Black -->
+    <color name="colorOnError">#FFFFFF</color> <!-- White -->
+    
+    <!-- Dark Theme Colors -->
+    <color name="colorPrimaryDark">#BB86FC</color> <!-- Light Purple -->
+    <color name="colorPrimaryVariantDark">#6200EE</color> <!-- Purple -->
+    <color name="colorSecondaryDark">#03DAC6</color> <!-- Teal -->
+    <color name="colorSecondaryVariantDark">#018786</color> <!-- Darker Teal -->
+    <color name="colorBackgroundDark">#121212</color> <!-- Dark Grey -->
+    <color name="colorSurfaceDark">#1E1E1E</color> <!-- Dark Grey -->
+    <color name="colorErrorDark">#CF6679</color> <!-- Light Red -->
+    <color name="colorOnPrimaryDark">#000000</color> <!-- Black -->
+    <color name="colorOnSecondaryDark">#000000</color> <!-- Black -->
+    <color name="colorOnBackgroundDark">#FFFFFF</color> <!-- White -->
+    <color name="colorOnSurfaceDark">#FFFFFF</color> <!-- White -->
+    <color name="colorOnErrorDark">#000000</color> <!-- Black -->
+
+</resources>
