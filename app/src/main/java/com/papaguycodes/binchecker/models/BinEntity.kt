@@ -5,9 +5,10 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "bin_table")
 data class BinEntity(
-    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    @PrimaryKey(autoGenerate = true) val id: Int,
     val bin: String,
-    val bankName: String,
-    val cardType: String,
-    val country: String
+    val bank: String?,
+    val country: String?,
+    val type: String?,
+    val brand: String?
 )
