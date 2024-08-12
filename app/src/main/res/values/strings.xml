@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">BIN Checker</string>
+
+    <!-- General -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Home Fragment -->
+    <string name="home_title">Home</string>
+    <string name="bin_input_hint">Enter BIN Number</string>
+    <string name="btn_check_bin">Check BIN</string>
+    <string name="result_title">BIN Details</string>
+    <string name="result_bin">BIN: %1$s</string>
+    <string name="result_bank">Bank: %1$s</string>
+    <string name="result_card_type">Card Type: %1$s</string>
+    <string name="result_country">Country: %1$s</string>
+    <string name="save_favorite">Save to Favorites</string>
+    <string name="error_invalid_bin">Invalid BIN number. Please try again.</string>
+    <string name="error_no_data">No data found for this BIN.</string>
+
+    <!-- History Fragment -->
+    <string name="history_title">History</string>
+    <string name="clear_history">Clear History</string>
+    <string name="empty_history_message">No history available. Start checking BINs to see history here.</string>
+
+    <!-- Favorites Fragment -->
+    <string name="favorites_title">Favorites</string>
+    <string name="clear_favorites">Clear Favorites</string>
+    <string name="empty_favorites_message">No favorites saved. You can save your favorite BINs here.</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_title">Settings</string>
+    <string name="theme_setting">App Theme</string>
+    <string name="clear_history_setting">Clear History</string>
+    <string name="clear_favorites_setting">Clear Favorites</string>
+    <string name="about_title">About</string>
+    <string name="about_content">BIN Checker is an app that allows you to validate and check BIN numbers for credit/debit cards. Developed by PaPaGuyCodes.</string>
+    <string name="footer_text">GitHub: PaPaGuyCodes</string>
+
+    <!-- Spinner Entries -->
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+
+    <!-- Splash Screen -->
+    <string name="splash_message">Welcome to BIN Checker</string>
+
+    <!-- Error Messages -->
+    <string name="error_network">Network error. Please check your internet connection.</string>
+    <string name="error_generic">An unexpected error occurred. Please try again later.</string>
+</resources>
