@@ -10,6 +10,6 @@ interface BinDao {
     @Insert
     suspend fun insert(binEntity: BinEntity)
 
-    @Query("SELECT * FROM bin_table")
+    @Query("SELECT * FROM bin_table ORDER BY id DESC")
     suspend fun getAllBins(): List<BinEntity>
 }
