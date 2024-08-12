@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="?attr/colorBackground">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bin_checker_title"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- BIN Input Field -->
+    <EditText
+        android:id="@+id/etBinInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_bin"
+        android:inputType="number"
+        android:maxLength="6"
+        android:background="?attr/editTextBackground"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp" />
+
+    <!-- Check BIN Button -->
+    <Button
+        android:id="@+id/btnCheckBin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_bin"
+        android:layout_below="@id/etBinInput"
+        android:layout_centerHorizontal="true"
+        android:theme="?attr/buttonBarPositiveButtonStyle"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp" />
+
+    <!-- BIN Result Section -->
+    <LinearLayout
+        android:id="@+id/resultSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_below="@id/btnCheckBin"
+        android:layout_marginTop="24dp"
+        android:padding="16dp"
+        android:background="?attr/colorPrimaryVariant"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/tvResultTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result_title"
+            android:textAppearance="?attr/textAppearanceSubtitle1"
+            android:textColor="?attr/colorOnPrimary" />
+
+        <TextView
+            android:id="@+id/tvCardScheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvCardType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvBankName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="?attr/colorOnPrimary"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+
+    <!-- Save to Favorites Button -->
+    <Button
+        android:id="@+id/btnSaveToFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_to_favorites"
+        android:layout_below="@id/resultSection"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:theme="?attr/buttonBarPositiveButtonStyle"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp"
+        android:visibility="gone" />
+
+    <!-- View History Button -->
+    <Button
+        android:id="@+id/btnViewHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_history"
+        android:layout_below="@id/resultSection"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:theme="?attr/buttonBarPositiveButtonStyle"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="12dp" />
+
+</RelativeLayout>
