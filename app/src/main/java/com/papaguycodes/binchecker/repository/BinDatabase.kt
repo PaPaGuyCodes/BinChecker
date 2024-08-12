@@ -1,4 +1,3 @@
-// BinDatabase.kt
 package com.papaguycodes.binchecker.repository
 
 import android.content.Context
